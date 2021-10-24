@@ -3,8 +3,10 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
-        jcenter() // Warning: this repository is going to shut down soon
     }
 }
 rootProject.name = "Lab3"
-include ':app'
+include ':app_task2'
+include ':app_task3'
+include ':app_task4'
+include ':app_task5'
