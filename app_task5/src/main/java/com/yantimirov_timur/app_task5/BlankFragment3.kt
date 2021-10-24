@@ -23,9 +23,6 @@ class BlankFragment3 : Fragment() {
             findNavController().navigate(R.id.action_blankFragment3_to_blankFragment2)
         }
 
-        // Inflate the layout for this fragment
         return view
     }
-
-
 }
