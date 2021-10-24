@@ -1,15 +1,16 @@
-package com.yantimirov_timur.app_task2
-
+package com.yantimirov_timur.app_task4
 
 import android.content.Intent
 import android.view.Menu
 import android.view.MenuInflater
 import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
-import com.yantimirov_timur.lab3.R
 
-abstract class OptionsMenu : AppCompatActivity() {
+open class OptionsMenu : AppCompatActivity() {
 
+    /**
+     * Options menu on every activity
+     */
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         val inflater: MenuInflater = menuInflater
         inflater.inflate(R.menu.menu, menu)
@@ -17,11 +18,8 @@ abstract class OptionsMenu : AppCompatActivity() {
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        val intentAbout = Intent(this, ActivityAbout::class.java)
-      //  if (item.itemId == R.id.activityAbout) {
-            startActivity(intentAbout)
-       // }
+        val intentActivityAbout = Intent(this, ActivityAbout::class.java)
+        startActivity(intentActivityAbout)
         return super.onOptionsItemSelected(item)
     }
-
 }

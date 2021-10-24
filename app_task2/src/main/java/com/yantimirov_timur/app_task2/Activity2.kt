@@ -2,11 +2,7 @@ package com.yantimirov_timur.app_task2
 
 import android.app.Activity
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.Menu
-import android.view.MenuInflater
-import android.view.MenuItem
 import android.widget.Button
 import androidx.activity.result.contract.ActivityResultContracts
 import com.yantimirov_timur.lab3.R

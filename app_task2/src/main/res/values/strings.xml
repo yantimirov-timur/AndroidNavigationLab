@@ -6,4 +6,6 @@
     <string name="to_first_activity">to First Activity</string>
     <string name="to_third_activity">To Third Activity</string>
     <string name="third_activity">Third Activity</string>
+    <string name="activities">Run Activity About</string>
+    <string name="activity_about">Activity About</string>
 </resources>

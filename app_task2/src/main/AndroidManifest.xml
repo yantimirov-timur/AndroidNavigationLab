@@ -15,6 +15,11 @@
         <activity
             android:name="com.yantimirov_timur.app_task2.Activity2"
             android:exported="true" />
+
+        <activity
+            android:name="com.yantimirov_timur.app_task2.ActivityAbout"
+            android:exported="true" />
+
         <activity
             android:name="com.yantimirov_timur.app_task2.Activity1"
             android:exported="true">
@@ -24,6 +29,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+
     </application>
 
 </manifest>

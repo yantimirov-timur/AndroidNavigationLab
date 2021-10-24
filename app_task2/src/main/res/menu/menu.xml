@@ -1,22 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/file"
-        android:title="Activities">
-        <!-- "file" submenu -->
-        <menu>
-            <item
-                android:id="@+id/activity1"
-                android:title="Activity1" />
+        android:id="@+id/activities"
+        android:title="@string/activities">
 
-            <item
-                android:id="@+id/activity2"
-                android:title="Activity2" />
-
-            <item
-                android:id="@+id/activity3"
-                android:title="Activity3" />
-
-        </menu>
     </item>
 </menu>
