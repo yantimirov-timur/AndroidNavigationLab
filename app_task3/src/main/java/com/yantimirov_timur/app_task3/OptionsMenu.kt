@@ -1,4 +1,4 @@
-package com.yantimirov_timur.app2
+package com.yantimirov_timur.app_task3
 
 import android.content.Intent
 import android.view.Menu
