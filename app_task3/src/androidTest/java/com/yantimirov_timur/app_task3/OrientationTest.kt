@@ -1,4 +1,4 @@
-package com.yantimirov_timur.lab3
+package com.yantimirov_timur.app_task3
 
 import android.content.pm.ActivityInfo
 import androidx.test.core.app.ActivityScenario
@@ -8,7 +8,6 @@ import androidx.test.espresso.assertion.ViewAssertions.matches
 import androidx.test.espresso.matcher.ViewMatchers.isDisplayed
 import androidx.test.espresso.matcher.ViewMatchers.withId
 import androidx.test.ext.junit.runners.AndroidJUnit4
-import com.yantimirov_timur.app_task2.MainActivity
 import org.junit.Test
 import org.junit.runner.RunWith
 

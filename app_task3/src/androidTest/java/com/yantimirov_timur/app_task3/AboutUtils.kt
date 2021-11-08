@@ -1,4 +1,4 @@
-package com.yantimirov_timur.lab3
+package com.yantimirov_timur.app_task3
 
 
 import androidx.test.espresso.Espresso.onView

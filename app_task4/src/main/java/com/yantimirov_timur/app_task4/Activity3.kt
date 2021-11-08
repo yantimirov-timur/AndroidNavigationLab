@@ -12,14 +12,14 @@ class Activity3 : OptionsMenu() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_3)
 
-        val intentFirstActivity = Intent(this, Activity1::class.java)
+        val intentFirstActivity = Intent(this, MainActivity::class.java)
         val intentSecondActivity = Intent(this, Activity2::class.java)
 
-        findViewById<Button>(R.id.buttonToSecond).setOnClickListener {
+        findViewById<Button>(R.id.bnToSecond).setOnClickListener {
             startActivity(intentSecondActivity)
 
         }
-        findViewById<Button>(R.id.buttonToFirst).setOnClickListener {
+        findViewById<Button>(R.id.bnToFirst).setOnClickListener {
             startActivity(intentFirstActivity)
 
         }

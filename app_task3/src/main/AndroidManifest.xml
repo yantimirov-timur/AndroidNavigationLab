@@ -19,7 +19,7 @@
             android:name="com.yantimirov_timur.app_task3.ActivityAbout"
             android:exported="true" />
         <activity
-            android:name="com.yantimirov_timur.app_task3.Activity1"
+            android:name="com.yantimirov_timur.app_task3.MainActivity"
             android:exported="true"
             android:launchMode="singleTask">
             <intent-filter>

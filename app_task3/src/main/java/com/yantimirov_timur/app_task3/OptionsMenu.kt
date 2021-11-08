@@ -20,9 +20,7 @@ open class OptionsMenu : AppCompatActivity() {
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         val intentActivityAbout = Intent(this, ActivityAbout::class.java)
-        if (item.itemId == R.id.activity_about) {
-            startActivity(intentActivityAbout)
-        }
+        startActivity(intentActivityAbout)
         return super.onOptionsItemSelected(item)
     }
 }

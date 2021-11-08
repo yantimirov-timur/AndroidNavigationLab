@@ -16,10 +16,10 @@ class BlankFragment3 : Fragment() {
     ): View? {
         val view = inflater.inflate(R.layout.fragment_blank3, container, false)
 
-        view.findViewById<Button>(R.id.toFirstFragment).setOnClickListener {
+        view.findViewById<Button>(R.id.bnToFirst).setOnClickListener {
             findNavController().navigate(R.id.action_blankFragment3_to_blankFragment1)
         }
-        view.findViewById<Button>(R.id.toSecondFragment).setOnClickListener {
+        view.findViewById<Button>(R.id.bnToSecond).setOnClickListener {
             findNavController().navigate(R.id.action_blankFragment3_to_blankFragment2)
         }
 

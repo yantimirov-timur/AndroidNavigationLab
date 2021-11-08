@@ -4,7 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 
-class Activity1 : OptionsMenu() {
+class MainActivity : OptionsMenu() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -13,11 +13,11 @@ class Activity1 : OptionsMenu() {
         val intentActivity2 = Intent(this, Activity2::class.java)
         val intentActivity3 = Intent(this, Activity3::class.java)
 
-        findViewById<Button>(R.id.buttonToSecond).setOnClickListener {
+        findViewById<Button>(R.id.bnToSecond).setOnClickListener {
             startActivity(intentActivity2)
         }
 
-        findViewById<Button>(R.id.buttonToThird).setOnClickListener {
+        findViewById<Button>(R.id.bnToThird).setOnClickListener {
             startActivity(intentActivity3)
         }
 
