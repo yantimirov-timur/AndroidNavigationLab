@@ -18,9 +18,7 @@ abstract class OptionsMenu : AppCompatActivity() {
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         val intentAbout = Intent(this, ActivityAbout::class.java)
-      //  if (item.itemId == R.id.activityAbout) {
-            startActivity(intentAbout)
-       // }
+        startActivity(intentAbout)
         return super.onOptionsItemSelected(item)
     }
 

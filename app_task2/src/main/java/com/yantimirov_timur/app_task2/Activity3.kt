@@ -10,10 +10,10 @@ class Activity3 : OptionsMenu() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_3)
 
-        findViewById<Button>(R.id.buttonToSecond).setOnClickListener {
+        findViewById<Button>(R.id.bnToSecond).setOnClickListener {
             finish()
         }
-        findViewById<Button>(R.id.buttonToFirst).setOnClickListener {
+        findViewById<Button>(R.id.bnToFirst).setOnClickListener {
             setResult(RESULT_OK)
             finish()
         }

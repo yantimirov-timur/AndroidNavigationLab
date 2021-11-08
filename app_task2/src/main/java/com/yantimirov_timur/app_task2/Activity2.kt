@@ -14,10 +14,10 @@ class Activity2 : OptionsMenu() {
         setContentView(R.layout.activity_2)
         val intentThirdActivity = Intent(this, Activity3::class.java)
 
-        findViewById<Button>(R.id.buttonToFirst).setOnClickListener {
+        findViewById<Button>(R.id.bnToFirst).setOnClickListener {
             finish()
         }
-        findViewById<Button>(R.id.buttonToThird).setOnClickListener {
+        findViewById<Button>(R.id.bnToThird).setOnClickListener {
             launcherActivity.launch(intentThirdActivity)
         }
     }
