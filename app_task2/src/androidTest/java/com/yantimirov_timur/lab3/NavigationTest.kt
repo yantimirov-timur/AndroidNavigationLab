@@ -36,8 +36,6 @@ class NavigationTest {
         onView(withId(R.id.bnToThird)).perform(click())
         onView(withId(R.id.fragment3)).check(matches(isDisplayed()))
         //Test to go to about from third fragment
-//        openAbout()
-//        onView(withId(R.id.activity_about)).check(matches(isDisplayed()))
     }
 
     @Test
