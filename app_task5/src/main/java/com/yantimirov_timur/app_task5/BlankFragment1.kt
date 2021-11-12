@@ -9,7 +9,6 @@ import android.widget.Button
 import androidx.navigation.fragment.findNavController
 
 class BlankFragment1 : Fragment() {
-
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -22,5 +21,4 @@ class BlankFragment1 : Fragment() {
 
         return view
     }
-
 }

@@ -15,16 +15,13 @@ class BlankFragment2 : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-
         val view = inflater.inflate(R.layout.fragment_blank2, container, false)
-
         view.findViewById<Button>(R.id.bnToThird).setOnClickListener {
             findNavController().navigate(R.id.action_blankFragment2_to_blankFragment3)
         }
         view.findViewById<Button>(R.id.bnToFirst).setOnClickListener {
             findNavController().navigate(R.id.action_blankFragment2_to_blankFragment1)
         }
-
 
         return view
     }

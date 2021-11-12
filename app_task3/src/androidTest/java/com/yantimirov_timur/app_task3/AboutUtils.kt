@@ -9,7 +9,7 @@ import androidx.test.espresso.matcher.ViewMatchers.withText
 
 private fun openAboutViaOptions() {
     openContextualActionModeOverflowMenu()
-    onView(withText(R.string.run_activity_about))
+    onView(withText(R.string.title_about))
         .perform(click())
 }
 

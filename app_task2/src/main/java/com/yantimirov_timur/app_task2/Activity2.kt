@@ -13,7 +13,7 @@ class Activity2 : OptionsMenu() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_2)
         val intentThirdActivity = Intent(this, Activity3::class.java)
-
+        // supportActionBar?.setDisplayHomeAsUpEnabled(true)
         findViewById<Button>(R.id.bnToFirst).setOnClickListener {
             finish()
         }
@@ -28,4 +28,10 @@ class Activity2 : OptionsMenu() {
                 finish()
             }
         }
+
+    override fun onSupportNavigateUp(): Boolean {
+        finish()
+        return super.onSupportNavigateUp()
+    }
+
 }

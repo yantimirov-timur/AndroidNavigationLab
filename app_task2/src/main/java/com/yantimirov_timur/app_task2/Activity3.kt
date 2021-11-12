@@ -1,8 +1,10 @@
 package com.yantimirov_timur.app_task2
 
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
+import androidx.navigation.findNavController
 import com.yantimirov_timur.lab3.R
 
 class Activity3 : OptionsMenu() {
@@ -17,5 +19,10 @@ class Activity3 : OptionsMenu() {
             setResult(RESULT_OK)
             finish()
         }
+    }
+
+    override fun navigateUpTo(upIntent: Intent?): Boolean {
+        finish()
+        return super.navigateUpTo(upIntent)
     }
 }

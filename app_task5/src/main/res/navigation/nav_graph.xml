@@ -4,6 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
     app:startDestination="@id/blankFragment1">
+
+    <activity
+        android:id="@+id/activity_about"
+        android:name="com.yantimirov_timur.app_task5.ActivityAbout"
+        android:label="ActivityAbout"
+        app:action="@+id/action_about" />
+
     <fragment
         android:id="@+id/blankFragment1"
         android:name="com.yantimirov_timur.app_task5.BlankFragment1"
@@ -11,12 +18,7 @@
         tools:layout="@layout/fragment_blank1">
         <action
             android:id="@+id/action_blankFragment1_to_blankFragment2"
-            app:destination="@id/blankFragment2"
-
-            />
-        <action
-            android:id="@+id/action_blankFragment1_to_optionsMenu"
-            app:destination="@id/optionsMenu" />
+            app:destination="@id/blankFragment2" />
     </fragment>
     <fragment
         android:id="@+id/blankFragment2"
@@ -31,9 +33,6 @@
             app:destination="@id/blankFragment1"
             app:popUpTo="@id/blankFragment1"
             app:popUpToInclusive="true" />
-        <action
-            android:id="@+id/action_blankFragment2_to_optionsMenu"
-            app:destination="@id/optionsMenu" />
     </fragment>
     <fragment
         android:id="@+id/blankFragment3"
@@ -48,13 +47,8 @@
             android:id="@+id/action_blankFragment3_to_blankFragment1"
             app:destination="@id/blankFragment1"
             app:popUpTo="@id/blankFragment2"
-            app:popUpToInclusive="true"/>
-        <action
-            android:id="@+id/action_blankFragment3_to_optionsMenu"
-            app:destination="@id/optionsMenu" />
+            app:popUpToInclusive="true" />
     </fragment>
-    <activity
-        android:id="@+id/optionsMenu"
-        android:name="com.yantimirov_timur.app_task5.OptionsMenu"
-        android:label="OptionsMenu" />
+
+
 </navigation>

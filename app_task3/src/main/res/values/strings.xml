@@ -7,5 +7,5 @@
     <string name="to_third_activity">To Third Activity</string>
     <string name="third_activity">Third Activity</string>
     <string name="activities">Run Activity About</string>
-    <string name="run_activity_about">Run Activity About</string>
+    <string name="title_about">About</string>
 </resources>

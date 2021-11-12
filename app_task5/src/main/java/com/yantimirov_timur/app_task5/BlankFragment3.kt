@@ -7,15 +7,15 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import androidx.navigation.fragment.findNavController
+import androidx.navigation.ui.AppBarConfiguration
+import androidx.navigation.ui.navigateUp
 
 class BlankFragment3 : Fragment() {
-
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         val view = inflater.inflate(R.layout.fragment_blank3, container, false)
-
         view.findViewById<Button>(R.id.bnToFirst).setOnClickListener {
             findNavController().navigate(R.id.action_blankFragment3_to_blankFragment1)
         }

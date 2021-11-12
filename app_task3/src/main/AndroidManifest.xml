@@ -11,13 +11,16 @@
         android:theme="@style/Theme.Lab3">
         <activity
             android:name="com.yantimirov_timur.app_task3.Activity3"
-            android:exported="true" />
+            android:exported="true"
+            android:parentActivityName="com.yantimirov_timur.app_task3.Activity2"/>
         <activity
             android:name="com.yantimirov_timur.app_task3.Activity2"
-            android:exported="true" />
+            android:exported="true"
+          />
         <activity
             android:name="com.yantimirov_timur.app_task3.ActivityAbout"
             android:exported="true" />
+
         <activity
             android:name="com.yantimirov_timur.app_task3.MainActivity"
             android:exported="true"
