@@ -32,7 +32,8 @@
             android:id="@+id/action_blankFragment2_to_blankFragment1"
             app:destination="@id/blankFragment1"
             app:popUpTo="@id/blankFragment1"
-            app:popUpToInclusive="true" />
+            app:popUpToInclusive="true"
+            />
     </fragment>
     <fragment
         android:id="@+id/blankFragment3"
@@ -42,11 +43,11 @@
         <action
             android:id="@+id/action_blankFragment3_to_blankFragment2"
             app:destination="@id/blankFragment2"
-            app:popUpTo="@id/blankFragment2" />
+             />
         <action
             android:id="@+id/action_blankFragment3_to_blankFragment1"
             app:destination="@id/blankFragment1"
-            app:popUpTo="@id/blankFragment2"
+            app:popUpTo="@id/blankFragment1"
             app:popUpToInclusive="true" />
     </fragment>
 

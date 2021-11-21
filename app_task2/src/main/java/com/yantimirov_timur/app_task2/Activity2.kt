@@ -5,15 +5,16 @@ import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import androidx.activity.result.contract.ActivityResultContracts
+import androidx.appcompat.app.AppCompatActivity
 import com.yantimirov_timur.lab3.R
 
 
-class Activity2 : OptionsMenu() {
+class Activity2 : MainActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_2)
         val intentThirdActivity = Intent(this, Activity3::class.java)
-        // supportActionBar?.setDisplayHomeAsUpEnabled(true)
+         //supportActionBar?.setDisplayHomeAsUpEnabled(true)
         findViewById<Button>(R.id.bnToFirst).setOnClickListener {
             finish()
         }
@@ -29,9 +30,9 @@ class Activity2 : OptionsMenu() {
             }
         }
 
-    override fun onSupportNavigateUp(): Boolean {
-        finish()
-        return super.onSupportNavigateUp()
-    }
+//    override fun onSupportNavigateUp(): Boolean {
+//        finish()
+//        return super.onSupportNavigateUp()
+//    }
 
 }
