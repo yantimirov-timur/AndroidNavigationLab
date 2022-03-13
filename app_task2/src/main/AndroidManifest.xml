@@ -21,7 +21,7 @@
 
         <activity
             android:name="com.yantimirov_timur.app_task2.MainActivity"
-            android:exported="false">
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
